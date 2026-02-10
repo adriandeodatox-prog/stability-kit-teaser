@@ -8,11 +8,12 @@ text
 ---
 
 ## Real-Time Validation
-| Date  | Unique Cloners | Cumulative |
-|-------|---------------|------------|
-| Feb 8 | 7              | 7          |
-| Feb 9 | 47             | 54         |
-| Feb 10| **[LIVE]**     | **[LIVE]** |
+| Date  | Unique Cloners | Total Clones |
+|-------|---------------|--------------|
+| Feb 8 | 7              | 7            |
+| Feb 9 | 26             | 47           |
+| Feb 10| **[LIVE]**     | **[LIVE]**   |
+
 
 *Anthropic safety outreach → Immediate evaluation spike*
 
