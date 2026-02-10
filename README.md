@@ -1,4 +1,4 @@
-so this # LLM Stability Toolkit: 80% Hallucination Reduction
+# LLM Stability Toolkit: 80% Hallucination Reduction
 
 Layered interaction protocols w/ diagrams:
 
