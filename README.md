@@ -46,4 +46,64 @@ Co-Pilot(84) → HumanEyes+ReLoc sync
 - ✅ 5x diagrams
 - 🔒 200 NDA artifacts
 
+- ## Full Kit Preview
+stability-kit/ (Production Edition)
+├── meta/
+│   └── Adversarial Testing/llm-interaction-stability-adversarial-testing/
+├── Diagrams/                    # [5 Visual Protocol Anchors]
+│   ├── clarity-anchor-diagram.md
+│   ├── cold-context-diagram.md
+│   ├── delayed-commitment-diagram.md
+│   ├── human-eyes-diagram.md
+│   └── structural-re-location.md
+├── plausible-hallucination-reduction.md
+├── case-studies/                # [5 Real-World Validations]
+│   ├── Clarity Anchor Protocol/README.md
+│   ├── Cold Context Protocol/README.md
+│   ├── Delayed Commitment Protocol/README.md
+│   ├── Human Eyes/README.md
+│   └── Structural Re-Location/README.md
+└── protocols/                   # Core Stabilizers
+    ├── Clarity Anchor Protocol/
+    │   ├── README.md
+    │   ├── clarification-examples.md
+    │   ├── failure-modes.md
+    │   └── human-cognitive-effects.md
+    ├── Cold Context Protocol/
+    │   ├── README.md
+    │   ├── axioms.md
+    │   ├── failure-modes.md
+    │   └── use-cases.md
+    ├── Delayed Commitment Protocol/
+    │   ├── README.md
+    │   ├── axioms-and-invariants.md
+    │   ├── demonstrations.md
+    │   └── failure-modes.md
+    ├── Human Eyes/
+    │   ├── README.md
+    │   ├── best-practices-for-interaction-design.md
+    │   ├── clarification-examples.md
+    │   ├── contextual-anchoring-implementation.md
+    │   ├── demo.py
+    │   ├── failure-modes.md
+    │   └── human-cognitive-effects.md
+    └── Structural Re-Location/
+        ├── README.md
+        ├── axioms & invariants.md
+        ├── demonstrations.md
+        ├── failure-modes.md
+        ├── human-cognitive.effects.md
+        └── optional-periodic-structural-check-in.md
+
+Full kit → DM for early access • Enterprise-ready for LLM safety teams.
+
+🎯 Why Stability Kit
+Reversible AI: Every operation inspectable/undoable
+
+Modular: Mix protocols per use case
+
+Eval Scores: Built-in hallucination/plausibility metrics
+
+Human-AI Teams: Cognitive load minimization
+
 *Fork it. Break it. Hire me.*
