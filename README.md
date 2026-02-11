@@ -106,4 +106,4 @@ Eval Scores: Built-in hallucination/plausibility metrics
 
 Human-AI Teams: Cognitive load minimization
 
-*Fork it. Break it. Hire me.*
+*Fork it. Break it. I hope it’s working — I’d genuinely love to collaborate with thoughtful, safety-focused people.*
