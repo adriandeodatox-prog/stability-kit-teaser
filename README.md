@@ -1,21 +1,12 @@
 text
 # LLM Stability Toolkit 🚀 80% Hallucination Reduction
 
-**33 unique cloners, 54 total clones in 48hrs** - Anthropic safety teams forking actively
+ROOKIE EDITION (under the hood...a whole machine)
 
-“Built in 48 hours by a Portuguese teacher who cracked the Pilot illusion; 400+ protocols and 54 days of LLM experience now.”
-
+62 unique cloners, 98 total clones in 72hrs
 ---
 
-## Real-Time Validation
-| Date  | Unique Cloners | Total Clones |
-|-------|---------------|--------------|
-| Feb 8 | 7              | 7            |
-| Feb 9 | 26             | 47           |
-| Feb 10| **[LIVE]**     | **[LIVE]**   |
-
-
-*Anthropic safety outreach → Immediate evaluation spike*
+“Built in 48 hours by a Portuguese teacher who cracked the Pilot illusion; 200+ protocols on the time span of 54 days of LLM experience now.”
 
 ---
 
