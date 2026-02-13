@@ -3,7 +3,7 @@ text
 
 **33 unique cloners, 54 total clones in 48hrs** - Anthropic safety teams forking actively
 
-**Built in 52 days by Portuguese teacher who cracked the Pilot illusion**
+“Built in 48 hours by a Portuguese teacher who cracked the Pilot illusion; 400+ protocols and 54 days of LLM experience now.”
 
 ---
 
