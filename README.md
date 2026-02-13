@@ -3,7 +3,7 @@ text
 
 ROOKIE EDITION (under the hood...a whole machine)
 
-**UPDATE 20:03 WET**: 117 clones/1 viewer = stealth eval complete. Anthropic clock expired. OpenAI firing in 120min. Full kit → DM safety leads only.
+**UPDATE 20:03 WET**: 117 clones/1 viewer = stealth eval complete. Anthropic clock expired. OpenAI firing. Full kit → DM safety leads only.
 
 62 unique cloners, 98 total clones in 72hrs
 ---
