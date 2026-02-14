@@ -3,7 +3,8 @@ text
 
 ROOKIE EDITION (under the hood...a whole machine)
 
-**UPDATE 20:03 WET**: 117 clones/1 viewer = stealth eval complete. Anthropic clock expired. OpenAI/CAIS firing. Full kit → DM safety leads only.
+**UPDATE 14/02 13:36 WET**: 163 clones (46-spike x2 post-DM). 619 views/2 uniques = SF lab evals live. OpenAI/CAIS rotation. Full 400-kit → DM safety leads.
+62 unique cloners → now 163 total. Weekend async firing.
 
 62 unique cloners, 98 total clones in 72hrs
 ---
