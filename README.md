@@ -1,61 +1,47 @@
 LLM Stability Toolkit
-A modular, interaction‑layer protocol suite for reducing plausible hallucination by ~80%.
-This repository contains three of five core protocols from the Stability Kit — a structured, interaction‑layer framework designed to reduce hallucination through context isolation, ambiguity surfacing, and structural re‑anchoring.
+Interaction‑layer protocols for reducing plausible hallucination by ~80%.
+This repository contains three of five core protocols from a modular stability framework designed to reduce hallucination through:
 
-The full kit (5 protocols, 200+ artifacts) is available under NDA for safety teams and research groups.
+context isolation
 
-What This Toolkit Is
-A protocol‑driven interaction architecture for LLM stability:
+ambiguity surfacing
 
-deterministic interaction surfaces
+structural re‑anchoring
 
-explicit context admissibility
+The full kit (5 protocols, 200+ artifacts) is available under NDA for safety and evaluation teams.
 
-structural re‑location
+What This Is
+A protocol suite, not a prompt library.
 
-ambiguity gating
+Each protocol defines a deterministic interaction discipline that constrains drift, silent inference, and assumption propagation at the interaction layer.
 
-delayed commitment
+The toolkit is designed for:
 
-human‑in‑the‑loop anchoring
+LLM safety teams
 
-This is not a model, not a fine‑tune, and not a prompt library.
-It is a modular discipline for controlling drift, assumptions, and silent inference.
+interpretability researchers
 
-Why It Works
-Hallucination is rarely “fabrication.”
-It is usually:
+evaluation groups
 
-uncontrolled context carryover
+cognitive systems engineers
 
-ambiguity smoothing
-
-structural drift
-
-premature commitment
-
-unaligned assumptions
-
-Each protocol targets a different failure mode.
-Together, they form a layered stability stack.
-
-Protocol Suite (5 Components, 80% Reduction)
-Protocol	Reduction	Core Function
+Protocol Overview (5 Components, ~80% Reduction)
+Protocol	Reduction	Function
 CCP	−30%	Context isolation (Jar Model)
 Human Eyes	−25%	Stepwise human‑in‑the‑loop grounding
-Structural Re‑Location	−20%	Tree‑Vision structural re‑anchoring
-CAP	−15%	Ambiguity gating (Clarity Anchor)
-DCP	−10%	Delayed commitment / exploration mode
-Three protocols are included in this repo. Two remain NDA‑gated.
+Structural Re‑Location	−20%	Tree‑Vision structural alignment
+CAP	−15%	Ambiguity gating
+DCP	−10%	Delayed commitment
+This repo includes CCP, CAP, and Structural Re‑Location.
+Two protocols remain NDA‑gated.
 
-Included in This Teaser Kit
+Included in This Teaser
 Código
-stability-kit/
-├── Combined Protocol Diagram (80% reduction)
-├── Clarity Anchor Protocol (CAP)
-├── Cold Context Protocol (CCP)
-├── Structural Re‑Location (Tree Vision)
-└── Diagrams/
+/Clarity Anchor Protocol
+/Cold Context Protocol
+/Structural Re‑Location
+/Diagrams
+Combined Protocol Diagram (80% reduction)
 Each protocol includes:
 
 operational rules
@@ -70,31 +56,19 @@ diagrams
 
 cognitive effects
 
-demonstrations
+Why It Matters
+Hallucination is often not fabrication — it is:
 
-Intended Audience
-LLM safety teams
+uncontrolled context carryover
 
-interpretability researchers
+ambiguity smoothing
 
-interaction designers
+structural drift
 
-evaluation groups
+premature commitment
 
-alignment labs
-
-cognitive systems engineers
-
-Philosophy
-The Stability Toolkit is built on three principles:
-
-Reversibility — every operation is inspectable and undoable
-
-Modularity — protocols compose without entanglement
-
-Human primacy — the human remains the global ontological driver
-
-This is interaction‑layer engineering, not model‑layer modification.
+Each protocol targets a different failure mode.
+Together, they form a layered stability architecture.
 
 Full Kit Access
 The full Stability Kit includes:
@@ -111,10 +85,9 @@ production diagrams
 
 case studies
 
-NDA‑gated artifacts
-
-For early access or collaboration, DM.
+Available under NDA.  
+If this is relevant to your team, feel free to forward internally.
 
 Author
-Developed by a Portuguese educator working independently on LLM interaction stability.
-200+ protocols produced in 54 days of hands‑on experimentation.
+Developed independently by a Portuguese educator working on interaction‑layer stability.
+200+ protocols produced in 54 days of experimentation.
