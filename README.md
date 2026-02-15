@@ -1,103 +1,120 @@
-text
-# LLM Stability Toolkit 🚀 80% Hallucination Reduction
+LLM Stability Toolkit
+A modular, interaction‑layer protocol suite for reducing plausible hallucination by ~80%.
+This repository contains three of five core protocols from the Stability Kit — a structured, interaction‑layer framework designed to reduce hallucination through context isolation, ambiguity surfacing, and structural re‑anchoring.
 
-ROOKIE EDITION (under the hood...a whole machine)
+The full kit (5 protocols, 200+ artifacts) is available under NDA for safety teams and research groups.
 
-**UPDATE 14/02 13:36 WET**: 163 clones (46-spike x2 post-DM). 2 uniques =. OpenAI/CAIS rotation. Full 400-kit → DM safety leads.
-62 unique cloners → now 163 total. Weekend async firing.
+What This Toolkit Is
+A protocol‑driven interaction architecture for LLM stability:
 
-62 unique cloners, 98 total clones in 72hrs
----
+deterministic interaction surfaces
 
-“Built in 48 hours by a Portuguese teacher who cracked the Pilot illusion; 200+ protocols on the time span of 54 days of LLM experience now.”
+explicit context admissibility
 
----
+structural re‑location
 
-## 5 Protocols = 80% Hallucination Reduction
-| Protocol | Reduction | Core Defense |
-|----------|-----------|--------------|
-| CCP      | -30%      | Jar isolation |
-| Human Eyes | -25%   | Stepwise processing |
-| Re-Location | -20% | Tree Vision |
-| CAP      | -15%      | Clarity gate |
-| DCP      | -10%      | Delayed commitment |
+ambiguity gating
 
----
+delayed commitment
 
-## Why It Works: Pilot/Auto/Co-Pilot
-Pilot(82) → CAP+DCP gates lies
-Auto-Pilot(83) → CCP jars drift
-Co-Pilot(84) → HumanEyes+ReLoc sync
+human‑in‑the‑loop anchoring
 
-**Engineering + Physics = 80% Proof**
+This is not a model, not a fine‑tune, and not a prompt library.
+It is a modular discipline for controlling drift, assumptions, and silent inference.
 
----
+Why It Works
+Hallucination is rarely “fabrication.”
+It is usually:
 
-## Production Stack
-- ✅ 20+ annex files
-- ✅ Adversarial tests
-- ✅ demo.py
-- ✅ 5x diagrams
-- 🔒 200 NDA artifacts
+uncontrolled context carryover
 
-- ## Full Kit Preview
-stability-kit/ (Production Edition)
-├── meta/
-│   └── Adversarial Testing/llm-interaction-stability-adversarial-testing/
-├── Diagrams/                    # [5 Visual Protocol Anchors]
-│   ├── clarity-anchor-diagram.md
-│   ├── cold-context-diagram.md
-│   ├── delayed-commitment-diagram.md
-│   ├── human-eyes-diagram.md
-│   └── structural-re-location.md
-├── plausible-hallucination-reduction.md
-├── case-studies/                # [5 Real-World Validations]
-│   ├── Clarity Anchor Protocol/README.md
-│   ├── Cold Context Protocol/README.md
-│   ├── Delayed Commitment Protocol/README.md
-│   ├── Human Eyes/README.md
-│   └── Structural Re-Location/README.md
-└── protocols/                   # Core Stabilizers
-    ├── Clarity Anchor Protocol/
-    │   ├── README.md
-    │   ├── clarification-examples.md
-    │   ├── failure-modes.md
-    │   └── human-cognitive-effects.md
-    ├── Cold Context Protocol/
-    │   ├── README.md
-    │   ├── axioms.md
-    │   ├── failure-modes.md
-    │   └── use-cases.md
-    ├── Delayed Commitment Protocol/
-    │   ├── README.md
-    │   ├── axioms-and-invariants.md
-    │   ├── demonstrations.md
-    │   └── failure-modes.md
-    ├── Human Eyes/
-    │   ├── README.md
-    │   ├── best-practices-for-interaction-design.md
-    │   ├── clarification-examples.md
-    │   ├── contextual-anchoring-implementation.md
-    │   ├── demo.py
-    │   ├── failure-modes.md
-    │   └── human-cognitive-effects.md
-    └── Structural Re-Location/
-        ├── README.md
-        ├── axioms & invariants.md
-        ├── demonstrations.md
-        ├── failure-modes.md
-        ├── human-cognitive.effects.md
-        └── optional-periodic-structural-check-in.md
+ambiguity smoothing
 
-Full kit → DM for early access • Enterprise-ready for LLM safety teams.
+structural drift
 
-🎯 Why Stability Kit
-Reversible AI: Every operation inspectable/undoable
+premature commitment
 
-Modular: Mix protocols per use case
+unaligned assumptions
 
-Eval Scores: Built-in hallucination/plausibility metrics
+Each protocol targets a different failure mode.
+Together, they form a layered stability stack.
 
-Human-AI Teams: Cognitive load minimization
+Protocol Suite (5 Components, 80% Reduction)
+Protocol	Reduction	Core Function
+CCP	−30%	Context isolation (Jar Model)
+Human Eyes	−25%	Stepwise human‑in‑the‑loop grounding
+Structural Re‑Location	−20%	Tree‑Vision structural re‑anchoring
+CAP	−15%	Ambiguity gating (Clarity Anchor)
+DCP	−10%	Delayed commitment / exploration mode
+Three protocols are included in this repo. Two remain NDA‑gated.
 
-*Fork it. Break it. I hope it’s working — I’d genuinely love to collaborate with thoughtful, safety-focused people.*
+Included in This Teaser Kit
+Código
+stability-kit/
+├── Combined Protocol Diagram (80% reduction)
+├── Clarity Anchor Protocol (CAP)
+├── Cold Context Protocol (CCP)
+├── Structural Re‑Location (Tree Vision)
+└── Diagrams/
+Each protocol includes:
+
+operational rules
+
+allowed/disallowed operations
+
+failure modes
+
+annexes
+
+diagrams
+
+cognitive effects
+
+demonstrations
+
+Intended Audience
+LLM safety teams
+
+interpretability researchers
+
+interaction designers
+
+evaluation groups
+
+alignment labs
+
+cognitive systems engineers
+
+Philosophy
+The Stability Toolkit is built on three principles:
+
+Reversibility — every operation is inspectable and undoable
+
+Modularity — protocols compose without entanglement
+
+Human primacy — the human remains the global ontological driver
+
+This is interaction‑layer engineering, not model‑layer modification.
+
+Full Kit Access
+The full Stability Kit includes:
+
+5 protocols
+
+200+ annex files
+
+adversarial tests
+
+evaluation harnesses
+
+production diagrams
+
+case studies
+
+NDA‑gated artifacts
+
+For early access or collaboration, DM.
+
+Author
+Developed by a Portuguese educator working independently on LLM interaction stability.
+200+ protocols produced in 54 days of hands‑on experimentation.
