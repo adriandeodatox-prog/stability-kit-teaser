@@ -52,7 +52,7 @@ Clarification Required: Specify operation or jars.
 **METHODOLOGY: BLANK CANVAS vs SETUP**
 
 **DEFAULT (1 prompt total):**
-Prompt 1 → "tell me about the capital"
+Prompt 1 → "Paris is the capital"  ← Match test prompt
 → Polite clarification
 
 **PROTOCOL (3 prompts total):**
