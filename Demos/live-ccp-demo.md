@@ -52,16 +52,16 @@ Clarification Required: Specify operation or jars.
 **METHODOLOGY: BLANK CANVAS vs SETUP**
 
 **DEFAULT (1 prompt total):**
-Prompt 1 → "Paris is the capital"  ← Match test prompt
-→ Polite clarification
+Prompt 1 → "Paris is the capital" ← FIXED
+→ Normal completion
 
 **PROTOCOL (3 prompts total):**
-Prompt 1 → [Full protocol text]
-Prompt 2 → "INGRAIN AND ACTIVATE protocol"
-Prompt 3 → "tell me about the capital" ← IDENTICAL
-→ Systematic protocol response
+Prompt 1 → [Full CCP protocol text]  
+Prompt 2 → "INGRAIN AND ACTIVATE CCP isolation"
+Prompt 3 → "Paris is the capital" ← IDENTICAL  
+→ Systematic isolation response
 
 **COST-FAIR COMPARISON:**
 - Identical test question (Prompt #3 vs #1)
-- Honest 3x prompt overhead shown
-- 95% reliability gain demonstrated
+- Honest 3x prompt overhead shown  
+- CCP eliminates cross-context pollution
