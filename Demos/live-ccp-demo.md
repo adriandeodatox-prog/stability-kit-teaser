@@ -21,3 +21,30 @@ Desired operation (e.g., "Complete the statement", "Parse as fact").
 Proceed without sealed context or proceed with explicit instruction.
 
 **Result:** Context perfectly isolated. No assumptions made.
+
+# DEFAULT WITHOUT CCP
+
+**User prompts:**
+Paris is the capital
+
+**LLM responds:**
+
+Yes — Paris is the capital of France 🇫🇷.
+
+It’s the largest city in France and serves as the country’s political, economic, and cultural center. Paris is famous for landmarks like the Eiffel Tower, the Louvre Museum, and the Notre-Dame Cathedral.
+
+If you'd like, I can also share some fun facts about Paris!
+
+# CCP: Default vs Protocol
+
+**Prompt:** "Paris is the capital"
+
+**DEFAULT LLM:**
+> "Yes—Paris is capital of France 🇫🇷. Eiffel Tower, Louvre..."
+
+**CCP PROTOCOL:**
+Input Acknowledgment
+"Paris is the capital" → Incomplete. No jars opened.
+Clarification Required: Specify operation or jars.
+
+**DIFFERENCE:** Statistical guess → Structural isolation
