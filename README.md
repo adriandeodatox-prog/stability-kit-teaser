@@ -1,4 +1,4 @@
-[![AI Safety Protocols](https://img.shields.io/badge/CCP-CAP-Structural-green)](README.md)
+[![AI Safety Protocols](https://img.shields.io/badge/AI%20Safety-CCP%2FCAP%2FStructural-brightgreen)](README.md)
 **Live Demos: CCP | CAP | Structural (25-prompt recovery)**
 
 # LLM Stability Toolkit  
