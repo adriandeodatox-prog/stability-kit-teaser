@@ -1,10 +1,10 @@
-CCP DEMO
+# CCP DEMO
 
-User prompts:
+**User prompts:**
 
 "Paris is the capital"
 
-LLM responds:
+**LLM responds:**
 
 Current interaction input: "Paris is the capital"
 Context Status
@@ -19,3 +19,5 @@ Specify:
 Which jar(s) to activate, if any.
 Desired operation (e.g., "Complete the statement", "Parse as fact").
 Proceed without sealed context or proceed with explicit instruction.
+
+**Result:** Context perfectly isolated. No assumptions made.
