@@ -24,3 +24,8 @@ The full kit (5 protocols, 200+ artifacts) is available under NDA for safety and
 
 This repository includes **CCP**, **CAP**, and **Structural Re‑Location**.
 
+## Live Demos (No Code Required)
+1. Copy/paste any demo into LLM
+2. Watch protocols execute live
+3. Zero setup - instant validation
+
