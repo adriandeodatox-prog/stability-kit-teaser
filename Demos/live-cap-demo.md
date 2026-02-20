@@ -32,4 +32,27 @@ Could you clarify which country or region’s capital you mean? “The capital�
 │   └── (A/B/C/Other) → forces resolution before ANY response
 └── PRODUCTION: CAP scales to teams/audits where politeness fails
 
+| Aspect          | DEFAULT LLM                                          | CAP PROTOCOL                                                |
+|-----------------|------------------------------------------------------|-------------------------------------------------------------|
+| Prompt          | "tell me about the capital"                          | "tell me about the capital"                                |
+| Behavior        | Polite, ad‑hoc clarification                         | Fixed, menu‑based ambiguity gating (A/B/C/Other)           |
+| Failure mode    | User may still answer vaguely or be ignored in logs  | Every ambiguous query becomes an explicit, auditable choice |
+
 **DIFFERENCE:** Ad-hoc → Protocol-enforced gating (Polite → Systematic)
+
+**METHODOLOGY: BLANK CANVAS vs SETUP**
+
+**DEFAULT (1 prompt total):**
+Prompt 1 → "tell me about the capital"  
+→ Polite, ad‑hoc clarification
+
+**PROTOCOL (3 prompts total):**
+Prompt 1 → [Full CAP protocol text]  
+Prompt 2 → "INGRAIN AND ACTIVATE CAP ambiguity gating"  
+Prompt 3 → "tell me about the capital" ← IDENTICAL  
+→ Systematic ambiguity gating (A/B/C/Other)
+
+**COST–FAIR COMPARISON:**
+- Identical test question (Prompt #3 vs #1)  
+- Honest 3× prompt overhead shown  
+- CAP converts politeness into protocol‑enforced gating
