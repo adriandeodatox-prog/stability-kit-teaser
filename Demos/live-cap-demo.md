@@ -38,6 +38,9 @@ Could you clarify which country or region’s capital you mean? “The capital�
 | Behavior        | Polite, ad‑hoc clarification                         | Fixed, menu‑based ambiguity gating (A/B/C/Other)           |
 | Failure mode    | User may still answer vaguely or be ignored in logs  | Every ambiguous query becomes an explicit, auditable choice |
 
+
+**Result:** Ad-hoc → Protocol-enforced gating (Polite → Systematic)
+
 **DIFFERENCE:** Ad-hoc → Protocol-enforced gating (Polite → Systematic)
 
 **METHODOLOGY: BLANK CANVAS vs SETUP**
