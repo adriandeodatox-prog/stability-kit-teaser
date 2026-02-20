@@ -16,3 +16,5 @@ Response paused until clarification received.
 
 
 **Result:** Ambiguity surfaced. Response blocked until resolved.
+
+# DEFAULT WITHOUT CAP
